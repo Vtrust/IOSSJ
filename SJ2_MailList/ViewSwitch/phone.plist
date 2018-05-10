@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>何六</key>
+	<dict>
+		<key>手机</key>
+		<string>412345678</string>
+		<key>省份</key>
+		<string>4辽宁省</string>
+		<key>email</key>
+		<string>41479833945@qq.com</string>
+		<key>地址</key>
+		<string>4大连市 开发区</string>
+	</dict>
+	<key>王五</key>
+	<dict>
+		<key>手机</key>
+		<string>312345678</string>
+		<key>省份</key>
+		<string>3辽宁省</string>
+		<key>email</key>
+		<string>31479833945@qq.com</string>
+		<key>地址</key>
+		<string>3大连市 开发区</string>
+	</dict>
+	<key>李四</key>
+	<dict>
+		<key>手机</key>
+		<string>212345678</string>
+		<key>省份</key>
+		<string>2辽宁省</string>
+		<key>email</key>
+		<string>21479833945@qq.com</string>
+		<key>地址</key>
+		<string>2大连市 开发区</string>
+	</dict>
+	<key>张三</key>
+	<dict>
+		<key>手机</key>
+		<string>112345678</string>
+		<key>省份</key>
+		<string>1辽宁省</string>
+		<key>email</key>
+		<string>11479833945@qq.com</string>
+		<key>地址</key>
+		<string>1大连市 开发区</string>
+	</dict>
+</dict>
+</plist>

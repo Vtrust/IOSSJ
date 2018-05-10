@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>C</key>
+	<array>
+		<dict>
+			<key>image</key>
+			<string>my</string>
+			<key>name</key>
+			<string>设置</string>
+		</dict>
+	</array>
+	<key>B</key>
+	<array>
+		<dict>
+			<key>image</key>
+			<string>my</string>
+			<key>name</key>
+			<string>表情</string>
+		</dict>
+		<dict>
+			<key>image</key>
+			<string>my</string>
+			<key>name</key>
+			<string>卡包</string>
+		</dict>
+		<dict>
+			<key>image</key>
+			<string>my</string>
+			<key>name</key>
+			<string>相册</string>
+		</dict>
+		<dict>
+			<key>image</key>
+			<string>my</string>
+			<key>name</key>
+			<string>收藏</string>
+		</dict>
+	</array>
+	<key>A</key>
+	<array>
+		<dict>
+			<key>image</key>
+			<string>my</string>
+			<key>name</key>
+			<string>钱包</string>
+		</dict>
+	</array>
+	<key>-</key>
+	<array>
+		<dict>
+			<key>number</key>
+			<string>pancake</string>
+			<key>QR</key>
+			<string>二维码.png</string>
+			<key>image</key>
+			<string>avator</string>
+			<key>name</key>
+			<string>Vtrust</string>
+		</dict>
+	</array>
+</dict>
+</plist>

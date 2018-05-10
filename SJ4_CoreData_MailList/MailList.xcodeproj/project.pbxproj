@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3EF356AC206C19BD00546CBF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF356AB206C19BD00546CBF /* AppDelegate.m */; };
+		3EF356AF206C19BD00546CBF /* MailList.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF356AE206C19BD00546CBF /* MailList.m */; };
+		3EF356B2206C19BD00546CBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EF356B0206C19BD00546CBF /* Main.storyboard */; };
+		3EF356B5206C19BD00546CBF /* MailList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3EF356B3206C19BD00546CBF /* MailList.xcdatamodeld */; };
+		3EF356B7206C19BD00546CBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EF356B6206C19BD00546CBF /* Assets.xcassets */; };
+		3EF356BA206C19BD00546CBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EF356B8206C19BD00546CBF /* LaunchScreen.storyboard */; };
+		3EF356BD206C19BD00546CBF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF356BC206C19BD00546CBF /* main.m */; };
+		3EF356C7206C19BD00546CBF /* MailListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF356C6206C19BD00546CBF /* MailListTests.m */; };
+		3EF356D2206C19BD00546CBF /* MailListUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF356D1206C19BD00546CBF /* MailListUITests.m */; };
+		3EF356E3206C1A8C00546CBF /* Person+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF356E0206C1A8C00546CBF /* Person+CoreDataClass.m */; };
+		3EF356E4206C1A8C00546CBF /* Person+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF356E2206C1A8C00546CBF /* Person+CoreDataProperties.m */; };
+		3EF356E7206C1BCD00546CBF /* Detail.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF356E6206C1BCD00546CBF /* Detail.m */; };
+		3EF356EA206C1BDB00546CBF /* Edit.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF356E9206C1BDB00546CBF /* Edit.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3EF356C3206C19BD00546CBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3EF3569F206C19BD00546CBF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3EF356A6206C19BD00546CBF;
+			remoteInfo = MailList;
+		};
+		3EF356CE206C19BD00546CBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3EF3569F206C19BD00546CBF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3EF356A6206C19BD00546CBF;
+			remoteInfo = MailList;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3EF356A7206C19BD00546CBF /* MailList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MailList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EF356AA206C19BD00546CBF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3EF356AB206C19BD00546CBF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3EF356AD206C19BD00546CBF /* MailList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MailList.h; sourceTree = "<group>"; };
+		3EF356AE206C19BD00546CBF /* MailList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MailList.m; sourceTree = "<group>"; };
+		3EF356B1206C19BD00546CBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3EF356B4206C19BD00546CBF /* MailList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MailList.xcdatamodel; sourceTree = "<group>"; };
+		3EF356B6206C19BD00546CBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3EF356B9206C19BD00546CBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3EF356BB206C19BD00546CBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EF356BC206C19BD00546CBF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3EF356C2206C19BD00546CBF /* MailListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MailListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EF356C6206C19BD00546CBF /* MailListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MailListTests.m; sourceTree = "<group>"; };
+		3EF356C8206C19BD00546CBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EF356CD206C19BD00546CBF /* MailListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MailListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EF356D1206C19BD00546CBF /* MailListUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MailListUITests.m; sourceTree = "<group>"; };
+		3EF356D3206C19BD00546CBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EF356DF206C1A8C00546CBF /* Person+CoreDataClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Person+CoreDataClass.h"; sourceTree = "<group>"; };
+		3EF356E0206C1A8C00546CBF /* Person+CoreDataClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Person+CoreDataClass.m"; sourceTree = "<group>"; };
+		3EF356E1206C1A8C00546CBF /* Person+CoreDataProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Person+CoreDataProperties.h"; sourceTree = "<group>"; };
+		3EF356E2206C1A8C00546CBF /* Person+CoreDataProperties.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Person+CoreDataProperties.m"; sourceTree = "<group>"; };
+		3EF356E5206C1BCD00546CBF /* Detail.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Detail.h; sourceTree = "<group>"; };
+		3EF356E6206C1BCD00546CBF /* Detail.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Detail.m; sourceTree = "<group>"; };
+		3EF356E8206C1BDB00546CBF /* Edit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Edit.h; sourceTree = "<group>"; };
+		3EF356E9206C1BDB00546CBF /* Edit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Edit.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3EF356A4206C19BD00546CBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EF356BF206C19BD00546CBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EF356CA206C19BD00546CBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3EF3569E206C19BD00546CBF = {
+			isa = PBXGroup;
+			children = (
+				3EF356A9206C19BD00546CBF /* MailList */,
+				3EF356C5206C19BD00546CBF /* MailListTests */,
+				3EF356D0206C19BD00546CBF /* MailListUITests */,
+				3EF356A8206C19BD00546CBF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3EF356A8206C19BD00546CBF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3EF356A7206C19BD00546CBF /* MailList.app */,
+				3EF356C2206C19BD00546CBF /* MailListTests.xctest */,
+				3EF356CD206C19BD00546CBF /* MailListUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3EF356A9206C19BD00546CBF /* MailList */ = {
+			isa = PBXGroup;
+			children = (
+				3EF356DF206C1A8C00546CBF /* Person+CoreDataClass.h */,
+				3EF356E0206C1A8C00546CBF /* Person+CoreDataClass.m */,
+				3EF356E1206C1A8C00546CBF /* Person+CoreDataProperties.h */,
+				3EF356E2206C1A8C00546CBF /* Person+CoreDataProperties.m */,
+				3EF356AA206C19BD00546CBF /* AppDelegate.h */,
+				3EF356AB206C19BD00546CBF /* AppDelegate.m */,
+				3EF356AD206C19BD00546CBF /* MailList.h */,
+				3EF356AE206C19BD00546CBF /* MailList.m */,
+				3EF356B0206C19BD00546CBF /* Main.storyboard */,
+				3EF356B6206C19BD00546CBF /* Assets.xcassets */,
+				3EF356B8206C19BD00546CBF /* LaunchScreen.storyboard */,
+				3EF356BB206C19BD00546CBF /* Info.plist */,
+				3EF356BC206C19BD00546CBF /* main.m */,
+				3EF356B3206C19BD00546CBF /* MailList.xcdatamodeld */,
+				3EF356E5206C1BCD00546CBF /* Detail.h */,
+				3EF356E6206C1BCD00546CBF /* Detail.m */,
+				3EF356E8206C1BDB00546CBF /* Edit.h */,
+				3EF356E9206C1BDB00546CBF /* Edit.m */,
+			);
+			path = MailList;
+			sourceTree = "<group>";
+		};
+		3EF356C5206C19BD00546CBF /* MailListTests */ = {
+			isa = PBXGroup;
+			children = (
+				3EF356C6206C19BD00546CBF /* MailListTests.m */,
+				3EF356C8206C19BD00546CBF /* Info.plist */,
+			);
+			path = MailListTests;
+			sourceTree = "<group>";
+		};
+		3EF356D0206C19BD00546CBF /* MailListUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3EF356D1206C19BD00546CBF /* MailListUITests.m */,
+				3EF356D3206C19BD00546CBF /* Info.plist */,
+			);
+			path = MailListUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3EF356A6206C19BD00546CBF /* MailList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EF356D6206C19BD00546CBF /* Build configuration list for PBXNativeTarget "MailList" */;
+			buildPhases = (
+				3EF356A3206C19BD00546CBF /* Sources */,
+				3EF356A4206C19BD00546CBF /* Frameworks */,
+				3EF356A5206C19BD00546CBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MailList;
+			productName = MailList;
+			productReference = 3EF356A7206C19BD00546CBF /* MailList.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3EF356C1206C19BD00546CBF /* MailListTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EF356D9206C19BD00546CBF /* Build configuration list for PBXNativeTarget "MailListTests" */;
+			buildPhases = (
+				3EF356BE206C19BD00546CBF /* Sources */,
+				3EF356BF206C19BD00546CBF /* Frameworks */,
+				3EF356C0206C19BD00546CBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3EF356C4206C19BD00546CBF /* PBXTargetDependency */,
+			);
+			name = MailListTests;
+			productName = MailListTests;
+			productReference = 3EF356C2206C19BD00546CBF /* MailListTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3EF356CC206C19BD00546CBF /* MailListUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EF356DC206C19BD00546CBF /* Build configuration list for PBXNativeTarget "MailListUITests" */;
+			buildPhases = (
+				3EF356C9206C19BD00546CBF /* Sources */,
+				3EF356CA206C19BD00546CBF /* Frameworks */,
+				3EF356CB206C19BD00546CBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3EF356CF206C19BD00546CBF /* PBXTargetDependency */,
+			);
+			name = MailListUITests;
+			productName = MailListUITests;
+			productReference = 3EF356CD206C19BD00546CBF /* MailListUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3EF3569F206C19BD00546CBF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = vtrust;
+				TargetAttributes = {
+					3EF356A6206C19BD00546CBF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					3EF356C1206C19BD00546CBF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3EF356A6206C19BD00546CBF;
+					};
+					3EF356CC206C19BD00546CBF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3EF356A6206C19BD00546CBF;
+					};
+				};
+			};
+			buildConfigurationList = 3EF356A2206C19BD00546CBF /* Build configuration list for PBXProject "MailList" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3EF3569E206C19BD00546CBF;
+			productRefGroup = 3EF356A8206C19BD00546CBF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3EF356A6206C19BD00546CBF /* MailList */,
+				3EF356C1206C19BD00546CBF /* MailListTests */,
+				3EF356CC206C19BD00546CBF /* MailListUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3EF356A5206C19BD00546CBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EF356BA206C19BD00546CBF /* LaunchScreen.storyboard in Resources */,
+				3EF356B7206C19BD00546CBF /* Assets.xcassets in Resources */,
+				3EF356B2206C19BD00546CBF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EF356C0206C19BD00546CBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EF356CB206C19BD00546CBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3EF356A3206C19BD00546CBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EF356AF206C19BD00546CBF /* MailList.m in Sources */,
+				3EF356E7206C1BCD00546CBF /* Detail.m in Sources */,
+				3EF356AC206C19BD00546CBF /* AppDelegate.m in Sources */,
+				3EF356BD206C19BD00546CBF /* main.m in Sources */,
+				3EF356B5206C19BD00546CBF /* MailList.xcdatamodeld in Sources */,
+				3EF356E4206C1A8C00546CBF /* Person+CoreDataProperties.m in Sources */,
+				3EF356E3206C1A8C00546CBF /* Person+CoreDataClass.m in Sources */,
+				3EF356EA206C1BDB00546CBF /* Edit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EF356BE206C19BD00546CBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EF356C7206C19BD00546CBF /* MailListTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EF356C9206C19BD00546CBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EF356D2206C19BD00546CBF /* MailListUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3EF356C4206C19BD00546CBF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3EF356A6206C19BD00546CBF /* MailList */;
+			targetProxy = 3EF356C3206C19BD00546CBF /* PBXContainerItemProxy */;
+		};
+		3EF356CF206C19BD00546CBF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3EF356A6206C19BD00546CBF /* MailList */;
+			targetProxy = 3EF356CE206C19BD00546CBF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3EF356B0206C19BD00546CBF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3EF356B1206C19BD00546CBF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3EF356B8206C19BD00546CBF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3EF356B9206C19BD00546CBF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3EF356D4206C19BD00546CBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3EF356D5206C19BD00546CBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3EF356D7206C19BD00546CBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BCL94WPPAH;
+				INFOPLIST_FILE = MailList/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = demo2.MailList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3EF356D8206C19BD00546CBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BCL94WPPAH;
+				INFOPLIST_FILE = MailList/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = demo2.MailList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3EF356DA206C19BD00546CBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BCL94WPPAH;
+				INFOPLIST_FILE = MailListTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = demo2.MailListTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MailList.app/MailList";
+			};
+			name = Debug;
+		};
+		3EF356DB206C19BD00546CBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BCL94WPPAH;
+				INFOPLIST_FILE = MailListTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = demo2.MailListTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MailList.app/MailList";
+			};
+			name = Release;
+		};
+		3EF356DD206C19BD00546CBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BCL94WPPAH;
+				INFOPLIST_FILE = MailListUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = demo2.MailListUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MailList;
+			};
+			name = Debug;
+		};
+		3EF356DE206C19BD00546CBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BCL94WPPAH;
+				INFOPLIST_FILE = MailListUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = demo2.MailListUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MailList;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3EF356A2206C19BD00546CBF /* Build configuration list for PBXProject "MailList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EF356D4206C19BD00546CBF /* Debug */,
+				3EF356D5206C19BD00546CBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EF356D6206C19BD00546CBF /* Build configuration list for PBXNativeTarget "MailList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EF356D7206C19BD00546CBF /* Debug */,
+				3EF356D8206C19BD00546CBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EF356D9206C19BD00546CBF /* Build configuration list for PBXNativeTarget "MailListTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EF356DA206C19BD00546CBF /* Debug */,
+				3EF356DB206C19BD00546CBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EF356DC206C19BD00546CBF /* Build configuration list for PBXNativeTarget "MailListUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EF356DD206C19BD00546CBF /* Debug */,
+				3EF356DE206C19BD00546CBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3EF356B3206C19BD00546CBF /* MailList.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3EF356B4206C19BD00546CBF /* MailList.xcdatamodel */,
+			);
+			currentVersion = 3EF356B4206C19BD00546CBF /* MailList.xcdatamodel */;
+			path = MailList.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3EF3569F206C19BD00546CBF /* Project object */;
+}

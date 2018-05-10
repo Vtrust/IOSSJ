@@ -1,0 +1,4 @@
+target 'Contacts' do
+pod 'BmobSDK'
+end
+
